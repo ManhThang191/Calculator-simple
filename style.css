@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(12, 54, 63);
+    backdrop-filter: blur(5.5px);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(215, 116, 245, 0.34);
+    width: 350px;
+    height: 550px;
+}
+
+.cal .screen {
+    backdrop-filter: blur(5.5px);
+    background-color: rgba(215, 116, 245, 0.34);
+    text-align: right;
+    font-size: 30px;
+    font-family: inherit;
+    padding: 5px;
+    font-size: 35px;
+    border-radius: 10px;
+    border: 0.5px;
+    margin: 5px 5px 30px;
+    /* flex-basis: 90%; */
+    height: 60px;
+    overflow: hidden;
+    color: aliceblue;
+}
+
+.cal .buttun-cal-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.btn-cal,
+.fun{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(57, 11, 72, 0.34);
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+
+.fun{
+    color: rgb(205, 231, 104);
+    background-color: rgba(32, 19, 36, 0.34);
+}
+
+.fun:hover{
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.fun:active{
+    color: #000;
+    background-color: rgba(30, 192, 100, 0.34);
+}
+
+.btn-cal:hover{
+    color: black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.btn-cal:active{
+    color: #000;
+    background-color: rgba(30, 192, 100, 0.34);
+}
+#del, #equal{
+    width: 140px;
+}
+
+
+
